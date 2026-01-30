@@ -45,6 +45,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -128,7 +129,6 @@
               ]
             },
             "id": "90fb7c87-183b-4128-837b-5d9fb0c58eab",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "User\nClient",
@@ -162,6 +162,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -245,7 +246,6 @@
               ]
             },
             "id": "7940e106-e52f-4b1c-8f5d-3348203dbaf9",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Login\nAuthentication",
@@ -488,6 +488,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -571,7 +572,6 @@
               ]
             },
             "id": "f91612be-256f-4a40-8cd7-25f66577202b",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "User\nDetails Schema",
